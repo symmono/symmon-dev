@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffb8e054ccc1965cc3e43845270675c1",
+    "content-hash": "c66a31ef7476b3b09151854d34e47362",
     "packages": [
         {
             "name": "symmono/framework-bundle",
