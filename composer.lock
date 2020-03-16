@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ffb8e054ccc1965cc3e43845270675c1",
+    "packages": [
+        {
+            "name": "symmono/framework-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../symmono/packages/Symmono/Bundle/FrameworkBundle",
+                "reference": "5a4f2219c2cccf2628f1e27331fac81dfb55be0d"
+            },
+            "require": {
+                "php": "^7.2.5"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symmono\\Bundle\\FrameworkBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Bertin van den Ham"
+                }
+            ],
+            "description": "Symmono FrameworkBundle",
+            "keywords": [
+                "bundle",
+                "framework",
+                "framework-bundle"
+            ],
+            "transport-options": {
+                "symlink": true
+            }
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symmono/framework-bundle": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.2.5"
+    },
+    "platform-dev": []
+}

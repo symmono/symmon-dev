@@ -10,10 +10,8 @@
         }
     ],
     "require": {
-        "php": "^7.2.5"
-    },
-    "replace": {
-        "symmono/framework-bundle": "self.version"
+        "php": "^7.2.5",
+        "symmono/framework-bundle": "0.2.x-dev"
     },
     "require-dev": {},
     "config": {
@@ -29,6 +27,15 @@
             "App\\Tests\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../symmono/packages/Symmono/*/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
